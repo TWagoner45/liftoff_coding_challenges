@@ -1,0 +1,5 @@
+function minMax(arr) {
+	const small =  Math.min(...arr);
+	const large = Math.max(...arr);
+	return [small, large];
+}
